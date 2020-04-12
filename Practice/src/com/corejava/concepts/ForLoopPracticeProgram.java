@@ -34,7 +34,9 @@ public class ForLoopPracticeProgram {
 				distinctStudentsCount++;
 			}
 		}
-		
+		if(distinctStudentsCount>=0)
+		System.out.println(distinctStudentsCount+" Distinct students");
+			
 		//To check invalid total or below distince mark of student details
 		if(distinctStudentsCount!=numberOfStudent){
 		System.out.println("invalid total or below distince mark of student details");
