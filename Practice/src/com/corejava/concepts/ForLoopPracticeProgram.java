@@ -34,6 +34,8 @@ public class ForLoopPracticeProgram {
 				distinctStudentsCount++;
 			}
 		}
+		
+		//To Show distinct student count
 		if(distinctStudentsCount>=0)
 		System.out.println(distinctStudentsCount+" Distinct students");
 			
